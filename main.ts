@@ -122,21 +122,26 @@ scene.setBackgroundImage(img`
     `)
 let Isbjørnemor = sprites.create(assets.image`polarBear`, SpriteKind.Player)
 Isbjørnemor.setPosition(0, 0)
-let Ivalo = sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
+let mySprite = sprites.create(img`
+    dddddbbbbbbbdddddddd
+    ddbbb1111111bbbddd..
+    dbdb111111111b1bdd..
+    dbd11111111111dbdd..
+    d1b11f1fff1f11b1dd..
+    dbd13111f111311bdd..
+    dbd11111f111111bdd..
+    d1bb111111111bb1dd..
+    ddb11111111111b1dd..
+    ddb11111111111bddd..
+    dbd111111111111bdd..
+    bbd1b1111111b11bbd..
+    1111b111b111b1111b..
+    1111b111b111b1111b..
+    11111b11b11b11111b..
+    dd..................
+    dd..................
+    dd..................
+    dd..................
+    dd..................
     `, SpriteKind.Player)
+mySprite.setPosition(134, 89)
